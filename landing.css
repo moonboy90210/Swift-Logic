@@ -1,0 +1,160 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    /* Hide scrollbar if needed */
+    background: white;
+    position: fixed;
+    /* Set fixed position */
+    top: 0;
+    /* Position at the top of the viewport */
+    width: 100%;
+    /* Full width */
+}
+.navbar-brand {
+    color: rgb(16, 74, 129);
+}
+.nav-link {
+    color: rgb(16, 74, 129);
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    /* Set background color */
+    color: red;
+    /* Set text color */
+}
+.bg {
+    /* display: table;
+    width: 100%; */
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/logistics.jpeg);
+    background-size: 100% 100%;
+    /* background-position: center top; */
+}
+#home {
+    margin: auto;
+    min-height: 800px;
+    color: white;
+    padding-top: 150px;
+  
+}
+.hdtxt {
+    padding-top: 150px;
+}
+.card-header {
+    background-color: rgb(16, 74, 129);
+    color: white;
+}
+.btn {
+    background-color: rgb(16, 74, 129);
+    color: white;
+}
+.fa {
+    color: rgb(16, 74, 129);
+    padding-bottom: 30px;
+}
+.fa-solid {
+  align-items: left;
+   
+}
+.card-text {
+    padding-bottom: 110px;
+}
+#form {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    background-color: rgb(16, 74, 129);
+}
+
+#services {
+    text-align: center;
+    padding-top: 80px;
+padding-bottom: 80px;
+}
+
+#packages {
+    text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+    background: #ddd;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#contact {
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer {
+    background: #ddd;
+    padding: 5px;
+    padding-top: 15px;
+
+}
+.btn1 {
+    width: 8.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: orange;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+@media screen and (min-width: 480px) {
+
+    /* Styles for small screens */
+    #navbar {
+
+        float: right;
+    }
+}
+
+@media (min-width: 769px) {
+
+    /* Styles for larger screens */
+    #navbar {
+        background-color: green;
+    }
+
+}
