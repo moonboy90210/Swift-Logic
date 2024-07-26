@@ -32,7 +32,7 @@ body {
     /* display: table;
     width: 100%; */
    
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/logistics.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../logistics.jpeg);
     background-size: 100% 100%;
     /* background-position: center top; */
 }
