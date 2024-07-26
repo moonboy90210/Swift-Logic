@@ -4,10 +4,10 @@ body {
 }
 
 .navbar {
-    overflow: hidden;
+    
     /* Hide scrollbar if needed */
     background: white;
-    position: fixed;
+    
     /* Set fixed position */
     top: 0;
     /* Position at the top of the viewport */
